@@ -1,1 +1,82 @@
-/* You can add global styles to this file, and also import other style files */
+/* /* /* You can add global styles to this file, and also import other style files */
+/* @import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'; */
+/* @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css'; */
+
+
+
+.body{
+    margin-top:20px;
+    background: #5c7840;
+    margin:0;
+}
+
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: #141414;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#6649b8;
+}
+
+
+.collapse {
+    font-size: large;
+    /* margin-left: 100px; */
+}
+
+.nav-link{
+    color: #5c7840;
+}
+
+.container {
+    margin-top: 15px;
+    padding: 10;
+    background-color: #5c7840;
+}
+
+.card {
+
+    border: none;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(47, 16, 16, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    margin-bottom: 35px;
+    background-image: url("./assets/img/wood.png");
+}
+.w-60 {
+    width: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px;
+    font-weight: 600;
+    
+}
+.social-links li a {
+    -webkit-border-radius: 50%;
+    background-color: rgba(149, 188, 155, 0.85);
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    font-size: 12px;
+}
+
+.list-group-item{
+    text-decoration: none;
+}
+
+.btn{
+    background: #141414;
+}
+
+a {
+    color: #707070;
+}
